@@ -1,0 +1,24 @@
+.thank-you span i{
+    font-size: 5rem;
+    color: green;
+}
+
+.thank-you h1{
+    font-size: 3.6rem;
+    font-family: var(--subtitle-font-name);
+}
+
+
+
+@media only screen and (max-width:840px){
+    .homeBtn{
+        width: 80% !important;
+    }
+    .thank-you h1{
+        font-size: 2.6rem;
+        font-family: var(--subtitle-font-name);
+    }
+    .thank-you span i{
+        font-size: 3rem;
+    }
+}
